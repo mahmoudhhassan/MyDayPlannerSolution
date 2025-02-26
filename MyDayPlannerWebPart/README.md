@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# MyDayPlannerSolution
-=======
 # my-day-planner
 
 ## Summary
