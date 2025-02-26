@@ -1,0 +1,20 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+
+    "AzureOpenAI__ChatModelId": "gpt-4o-mini",
+    "AzureOpenAI__ChatDeploymentName": "gpt-4o-mini",	
+    "AzureOpenAI__Endpoint": "https://agent-ai-serviceslmtp.openai.azure.com/",
+    "AzureOpenAI__ApiKey": "<ApiKey>",
+    
+    "MsGraph__ClientId": "41dc2ebf-8685-494d-adb2-2a3a5963cee9",
+    "MsGraph__ClientSecret": "<ClientSecret>",
+    "MsGraph__TenantId": "f2be8d6e-aac1-42f5-b158-e2290b12ef69",
+    "MsGraph__RedirectUri": "http://localhost"
+  },
+  "Host": {
+    "CORS": "*"
+  }
+}

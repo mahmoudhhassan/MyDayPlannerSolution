@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "my-day-planner-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myDayPlannerWebPart/MyDayPlannerWebPartWebPart.js",
+          "manifest": "./src/webparts/myDayPlannerWebPart/MyDayPlannerWebPartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MyDayPlannerWebPartWebPartStrings": "lib/webparts/myDayPlannerWebPart/loc/{locale}.js"
+  }
+}
